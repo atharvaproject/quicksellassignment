@@ -1,0 +1,44 @@
+/* src/Navbar.css */
+.navbar {
+  background-color: #3b2323;
+  color: white;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-item {
+  padding: 10px;
+  position: relative;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #3b2424;
+  min-width: 160px;
+  z-index: 1;
+  top: 100%;
+}
+
+.nav-item:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  padding: 10px;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #140909;
+}
